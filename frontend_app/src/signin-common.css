@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+/* Copied and adapted from assets/common.css */
+:root {
+  --color-ffffff: #ffffff;
+  --color-000000: #000000;
+  --color-121212: #121212;
+  --color-129575: #129575;
+  --color-d9d9d9: #d9d9d9;
+  --color-303030: #303030;
+  --color-ff9c00: #ff9c00;
+  --color-ffc107: #ffc107;
+
+  --color-white: var(--color-ffffff);
+  --color-black: var(--color-000000);
+
+  --typo-60-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-60-size: 30px;
+  --typo-60-weight: 600;
+  --typo-60-line-height: 45px;
+  --typo-60-letter-spacing: 0px;
+  --typo-60-text-align: left;
+  --typo-60-color: var(--color-000000);
+
+  --typo-61-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-61-size: 20px;
+  --typo-61-weight: 400;
+  --typo-61-line-height: 30px;
+  --typo-61-letter-spacing: 0px;
+  --typo-61-text-align: left;
+  --typo-61-color: var(--color-121212);
+
+  --typo-62-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-62-size: 11px;
+  --typo-62-weight: 400;
+  --typo-62-line-height: 16.5px;
+  --typo-62-letter-spacing: 0px;
+  --typo-62-text-align: center;
+  --typo-62-color: var(--color-ff9c00);
+
+  --typo-63-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-63-size: 11px;
+  --typo-63-weight: 500;
+  --typo-63-line-height: 16.5px;
+  --typo-63-letter-spacing: 0px;
+  --typo-63-text-align: left;
+  --typo-63-color: var(--color-000000);
+
+  --typo-64-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-64-size: 11px;
+  --typo-64-weight: 500;
+  --typo-64-line-height: 16.5px;
+  --typo-64-letter-spacing: 0px;
+  --typo-64-text-align: left;
+  --typo-64-color: var(--color-d9d9d9);
+
+  --typo-65-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-65-size: 11px;
+  --typo-65-weight: 400;
+  --typo-65-line-height: 16.5px;
+  --typo-65-letter-spacing: 0px;
+  --typo-65-text-align: left;
+  --typo-65-color: var(--color-d9d9d9);
+
+  --typo-66-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-66-size: 14px;
+  --typo-66-weight: 400;
+  --typo-66-line-height: 21px;
+  --typo-66-letter-spacing: 0px;
+  --typo-66-text-align: left;
+  --typo-66-color: var(--color-121212);
+
+  --typo-67-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-67-size: 15px;
+  --typo-67-weight: 500;
+  --typo-67-line-height: 17.900390625px;
+  --typo-67-letter-spacing: -0.1650000066px;
+  --typo-67-text-align: left;
+  --typo-67-color: var(--color-303030);
+
+  --typo-58-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  --typo-58-size: 16px;
+  --typo-58-weight: 600;
+  --typo-58-line-height: 24px;
+  --typo-58-letter-spacing: 0px;
+  --typo-58-text-align: center;
+  --typo-58-color: var(--color-ffffff);
+
+  --shadow-sm: 0 1px 2px rgba(0,0,0,0.05);
+  --shadow-md: 0 4px 6px rgba(0,0,0,0.1);
+  --shadow-lg: 0 8px 25px rgba(32,32,32,1);
+}
+
+* { box-sizing: border-box; }
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--color-white);
+  font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', Arial, sans-serif;
+  color: var(--color-121212);
+}
+
+.style-10 { background-color: var(--color-white); border-radius: 30px; }
+.style-11 { background-color: var(--color-129575); border-radius: 10px; }
+.style-28 { background-color: var(--color-d9d9d9); border: 1px solid var(--color-d9d9d9); }
+.style-30 { border: 1.5px solid var(--color-d9d9d9); border-radius: 10px; }
+.style-32 { background-color: var(--color-121212); border-radius: 100px; }
+.style-33 { background-color: var(--color-303030); opacity: 0.4; }
+
+.page {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: var(--color-white);
+}
+
+.screen-container {
+  position: relative;
+  width: 375px;
+  height: 812px;
+  overflow: hidden;
+  background: var(--color-white);
+  border-radius: 30px;
+  box-shadow: var(--shadow-sm);
+}
+
+.abs { position: absolute; }
+
+input:focus,
+button:focus {
+  outline: 2px solid rgba(18,149,117,0.4);
+  outline-offset: 2px;
+  border-color: var(--color-129575) !important;
+}
+
+button {
+  -webkit-appearance: none;
+  appearance: none;
+  background: none;
+}
